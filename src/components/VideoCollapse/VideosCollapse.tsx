@@ -39,8 +39,8 @@ export const VideosCollapse = () => {
               justifyContent: "center",
             }}
           >
-            {VIDEO_URLS.map((videoUrl) => (
-              <EmbedVideo videoUrl={videoUrl} />
+            {VIDEO_URLS.map((videoUrl, index) => (
+              <EmbedVideo key={index} videoUrl={videoUrl} />
             ))}
           </div>
         </AccordionDetails>

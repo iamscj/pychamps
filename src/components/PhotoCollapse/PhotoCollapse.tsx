@@ -42,8 +42,8 @@ export const PhotosCollapse = () => {
               justifyContent: "center",
             }}
           >
-            {VIDEO_URLS.map((imageUrl) => (
-              <EmbedImage imageUrl={imageUrl} />
+            {VIDEO_URLS.map((imageUrl, index) => (
+              <EmbedImage key={index} imageUrl={imageUrl} />
             ))}
           </div>
         </AccordionDetails>
