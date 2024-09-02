@@ -20,7 +20,7 @@ export const Footer = ({ isDarkMode }: Props) => {
     >
       <Container maxWidth="md" style={{ textAlign: "center" }}>
         <Typography variant="h6" gutterBottom>
-          PyChamps f
+          PyChamps
         </Typography>
         <Typography
           variant="body1"
