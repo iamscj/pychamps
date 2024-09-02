@@ -22,7 +22,7 @@ export const VideosCollapse = () => {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Sample Edited Videos</Typography>
+          <Typography>Sample Edited Videos "</Typography>
         </AccordionSummary>
         <AccordionDetails
           style={{
