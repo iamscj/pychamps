@@ -1,6 +1,7 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { Typography } from "@mui/material";
 import "./about.css";
+import lang from "../lang/index-lang";
 
 export const About = () => {
   return (
@@ -12,7 +13,7 @@ export const About = () => {
         marginTop={"20px"}
         className="baskervville-sc-regular"
       >
-        About Us
+        {lang.ABOUT_US}
       </Typography>
       <Typography
         variant="h6"
