@@ -3,6 +3,7 @@ import { Container, Typography, IconButton, Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import lang from "../lang/index-lang";
 
 type Props = {
   isDarkMode: boolean;
@@ -19,13 +20,13 @@ export const Footer = ({ isDarkMode }: Props) => {
     >
       <Container maxWidth="md" style={{ textAlign: "center" }}>
         <Typography variant="h6" gutterBottom>
-          PyChamps
+          PyChamps f
         </Typography>
         <Typography
           variant="body1"
           style={{ margin: "auto", maxWidth: "500px", lineHeight: "28px" }}
         >
-          " KEEP GRINDING, NO ONE CAN STOP YOU "
+          {lang.FOOTER_TAG_LINE}
         </Typography>
         <Box display="flex" justifyContent="center" my={2}>
           <IconButton

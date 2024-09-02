@@ -1,6 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import "./about.css";
+import lang from "../lang/index-lang";
 
 type Props = {
   isDarkmode: boolean;
@@ -28,8 +29,7 @@ export const ReachOut = ({ isDarkmode }: Props) => {
         margin={"auto"}
         marginTop={"20px"}
       >
-        Feel free to contact us anytime; if you don't receive a response, please
-        reach out via WhatsApp, and we'll get back to you ASAP.
+        {lang.REACT_OUT_DESCRIPTION}
       </Typography>
       <Box display="flex" justifyContent="center" my={2}>
         <Button
